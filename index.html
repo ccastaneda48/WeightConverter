@@ -1,0 +1,87 @@
+<!doctype html>
+<!--
+Christian Castaneda
+12/6/17
+"Simple Weight Converter" using
+-Javascript
+-Bootstrap 4
+-HTML 5
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Weight Converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!--CSS---->
+  <link rel="stylesheet" type='text/css' href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h1 class="display-4 text-center mb-3">Weight Converter</h1>
+      <form>
+        <div class="form-group">
+          <input
+          id="lbsInput"
+          type="number"
+          class="form-control form-control-lg"
+          placeholder="Enter Weight...">
+        </div>
+      </form>
+      <div id="output">
+        <!--Card-->
+        <div class="card bg-primary mb-2">
+          <div class="card-block">
+            <h4>Grams:</h4>
+            <div id="GramsOutput"></div>
+          </div>
+        </div>
+        <!--Card-->
+        <div class="card bg-success mb-2">
+          <div class="card-block">
+            <h4>Kilograms:</h4>
+            <div id="KgOutput"></div>
+          </div>
+        </div>
+        <!--Card-->
+        <div class="card bg-danger mb-2">
+          <div class="card-block">
+            <h4>Ounces:</h4>
+            <div id="OzOutput"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="js/scripts.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBfOkcJ_xBQDOmHg0rPj0bTXO19S9LuCnk",
+    authDomain: "weight-converter-a5d61.firebaseapp.com",
+    databaseURL: "https://weight-converter-a5d61.firebaseio.com",
+    projectId: "weight-converter-a5d61",
+    storageBucket: "weight-converter-a5d61.appspot.com",
+    messagingSenderId: "989160804104"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
+
+</body>
+</html>
