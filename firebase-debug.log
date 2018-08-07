@@ -1,0 +1,32 @@
+[debug] [2018-08-07T09:07:18.653Z] ----------------------------------------------------------------------
+[debug] [2018-08-07T09:07:18.668Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Christian\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-07T09:07:18.668Z] CLI Version:   4.0.3
+[debug] [2018-08-07T09:07:18.668Z] Platform:      win32
+[debug] [2018-08-07T09:07:18.668Z] Node Version:  v10.8.0
+[debug] [2018-08-07T09:07:18.669Z] Time:          Tue Aug 07 2018 02:07:18 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-07T09:07:18.669Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-07T09:07:18.679Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-07T09:07:18.680Z] > authorizing via signed-in user
+[debug] [2018-08-07T09:07:18.682Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/weightconverter-32943  
+  
+ Tue Aug 07 2018 02:07:18 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-07T09:07:19.205Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T09:07:19.206Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/weightconverter-32943/tokens  
+  
+ Tue Aug 07 2018 02:07:19 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-07T09:07:19.599Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T09:07:19.600Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/weightconverter-32943  
+  
+ Tue Aug 07 2018 02:07:19 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-07T09:07:20.120Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'F:\Downloads\Christian\Documents\GitHub\WeightConverter'...
+[info] 
+[debug] [2018-08-07T09:07:20.123Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/52191463565/clients/_:getWebAppConfig  
+  
+ Tue Aug 07 2018 02:07:20 GMT-0700 (Pacific Daylight Time)
+[debug] [2018-08-07T09:07:20.699Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: firebase_hosting_public
+[info] +  hosting: Local server: http://localhost:5000
+
